@@ -71,7 +71,8 @@
         .hero__badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.3); padding: 6px 16px; border-radius: 100px; font-size: 0.8rem; font-weight: 500; color: var(--accent-pink-light); margin-bottom: 32px; animation: fadeInUp 0.8s ease; backdrop-filter: blur(8px); }
         .hero__badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--accent-green); animation: pulse 2s ease-in-out infinite; }
         .hero__title { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; line-height: 1.4; margin-bottom: 24px; color: #ffffff; }
-        .hero__title .gradient-text { background: linear-gradient(135deg, #f472b6, #c084fc, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; background-size: 200% 200%; animation: gradientShift 4s ease infinite; }
+        .hero__title .gradient-text { }
+        .hero__title .gradient-text .hero-char { background: linear-gradient(135deg, #f472b6, #c084fc, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; background-size: 200% 200%; animation: charReveal 0.5s ease forwards, gradientShift 4s ease infinite; }
         .hero__title .hero-char { display: inline-block; opacity: 0; transform: translateY(20px); animation: charReveal 0.5s ease forwards; }
         @keyframes charReveal { to { opacity: 1; transform: translateY(0); } }
         @keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
