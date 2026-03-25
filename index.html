@@ -155,6 +155,9 @@
         .showcase-card__info { padding: 20px; }
         .showcase-card__title { font-size: 0.95rem; font-weight: 600; margin-bottom: 4px; }
         .showcase-card__desc { font-size: 0.8rem; color: var(--text-secondary); }
+        .gallery-category-heading { font-size: 1.1rem; font-weight: 600; color: var(--text-primary); margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--accent-pink); display: inline-block; }
+        .gallery-category-heading:first-child { margin-top: 24px; }
+        .showcase-grid--category { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 16px; }
 
         /* ===== Demo Reel ===== */
         .video-section { background: var(--bg-secondary); }
@@ -572,44 +575,43 @@
             </p>
             <div class="showcase-grid">
                 <!-- GALLERY_START -->
-                <div class="showcase-card" data-images="gallery/web/VTuberモデル用イラスト/01_くらげモチーフの子[VTuber向け キャラクターデザイン・イラスト制作]/立ち絵透過.webp">
-                    <div class="showcase-card__image">
-                        <span class="showcase-card__badge" style="background: #8b5cf6;">VTuberモデル用イラスト</span>
-                        <img src="gallery/web/VTuberモデル用イラスト/01_くらげモチーフの子[VTuber向け キャラクターデザイン・イラスト制作]/thumb.webp" alt="くらげモチーフの子" loading="lazy">
+                <h3 class="gallery-category-heading">VTuberモデル用イラスト</h3>
+                <div class="showcase-grid showcase-grid--category">
+                    <div class="showcase-card" data-images="gallery/web/VTuberモデル用イラスト/01_くらげモチーフの子[VTuber向け キャラクターデザイン・イラスト制作]/立ち絵透過.webp">
+                        <div class="showcase-card__image">
+                            <img src="gallery/web/VTuberモデル用イラスト/01_くらげモチーフの子[VTuber向け キャラクターデザイン・イラスト制作]/thumb.webp" alt="くらげモチーフの子" loading="lazy">
+                        </div>
+                        <div class="showcase-card__info">
+                            <div class="showcase-card__title">くらげモチーフの子</div>
+                            <div class="showcase-card__desc">VTuber向け キャラクターデザイン・イラスト制作</div>
+                        </div>
                     </div>
-                    <div class="showcase-card__info">
-                        <div class="showcase-card__title">くらげモチーフの子</div>
-                        <div class="showcase-card__desc">VTuber向け キャラクターデザイン・イラスト制作</div>
+                    <div class="showcase-card" data-images="gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/00.webp, gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/01.webp, gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/03.webp, gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/06.webp, gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/07.webp">
+                        <div class="showcase-card__image">
+                            <img src="gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/thumb.webp" alt="鬼っ子ちゃん" loading="lazy">
+                        </div>
+                        <div class="showcase-card__info">
+                            <div class="showcase-card__title">鬼っ子ちゃん</div>
+                            <div class="showcase-card__desc">VTuber向け キャラクターデザイン・イラスト制作</div>
+                        </div>
                     </div>
-                </div>
-                <div class="showcase-card" data-images="gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/00.webp, gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/01.webp, gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/03.webp, gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/06.webp, gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/07.webp">
-                    <div class="showcase-card__image">
-                        <span class="showcase-card__badge" style="background: #8b5cf6;">VTuberモデル用イラスト</span>
-                        <img src="gallery/web/VTuberモデル用イラスト/02_鬼っ子ちゃん[VTuber向け キャラクターデザイン・イラスト制作]/thumb.webp" alt="鬼っ子ちゃん" loading="lazy">
+                    <div class="showcase-card" data-images="gallery/web/VTuberモデル用イラスト/05_キツネ面の子[ オリジナルイラスト]/01_狐ちゃん.webp">
+                        <div class="showcase-card__image">
+                            <img src="gallery/web/VTuberモデル用イラスト/05_キツネ面の子[ オリジナルイラスト]/thumb.webp" alt="キツネ面の子" loading="lazy">
+                        </div>
+                        <div class="showcase-card__info">
+                            <div class="showcase-card__title">キツネ面の子</div>
+                            <div class="showcase-card__desc"> オリジナルイラスト</div>
+                        </div>
                     </div>
-                    <div class="showcase-card__info">
-                        <div class="showcase-card__title">鬼っ子ちゃん</div>
-                        <div class="showcase-card__desc">VTuber向け キャラクターデザイン・イラスト制作</div>
-                    </div>
-                </div>
-                <div class="showcase-card" data-images="gallery/web/VTuberモデル用イラスト/05_キツネ面の子[ オリジナルイラスト]/01_狐ちゃん.webp">
-                    <div class="showcase-card__image">
-                        <span class="showcase-card__badge" style="background: #8b5cf6;">VTuberモデル用イラスト</span>
-                        <img src="gallery/web/VTuberモデル用イラスト/05_キツネ面の子[ オリジナルイラスト]/thumb.webp" alt="キツネ面の子" loading="lazy">
-                    </div>
-                    <div class="showcase-card__info">
-                        <div class="showcase-card__title">キツネ面の子</div>
-                        <div class="showcase-card__desc"> オリジナルイラスト</div>
-                    </div>
-                </div>
-                <div class="showcase-card" data-images="gallery/web/VTuberモデル用イラスト/06_革ジャケットの子[ オリジナルイラスト]/01.webp">
-                    <div class="showcase-card__image">
-                        <span class="showcase-card__badge" style="background: #8b5cf6;">VTuberモデル用イラスト</span>
-                        <img src="gallery/web/VTuberモデル用イラスト/06_革ジャケットの子[ オリジナルイラスト]/thumb.webp" alt="革ジャケットの子" loading="lazy">
-                    </div>
-                    <div class="showcase-card__info">
-                        <div class="showcase-card__title">革ジャケットの子</div>
-                        <div class="showcase-card__desc"> オリジナルイラスト</div>
+                    <div class="showcase-card" data-images="gallery/web/VTuberモデル用イラスト/06_革ジャケットの子[ オリジナルイラスト]/01.webp">
+                        <div class="showcase-card__image">
+                            <img src="gallery/web/VTuberモデル用イラスト/06_革ジャケットの子[ オリジナルイラスト]/thumb.webp" alt="革ジャケットの子" loading="lazy">
+                        </div>
+                        <div class="showcase-card__info">
+                            <div class="showcase-card__title">革ジャケットの子</div>
+                            <div class="showcase-card__desc"> オリジナルイラスト</div>
+                        </div>
                     </div>
                 </div>
                 <!-- GALLERY_END -->
